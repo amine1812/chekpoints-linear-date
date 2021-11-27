@@ -1,0 +1,19 @@
+ALGORITHM algorithm_name
+VAR
+    set_1,set_2 array_name : ARRAY_OF type[];
+    sum:INTEGER:=0;
+    i,j=INTEGER
+    test:BOOLEAN;
+BEGIN
+    FOR i FROM 0 TO (set_1.length_1) STEP step 1  DO
+        test :=false;
+    FOR j FROM 0 TO (set_2.length_1) STEP step 1  DO
+        IF set_1 [i]= set_2[j] then set_2[j]=0
+            test:=true
+        END_IF
+    END_FOR    
+    END_FOR
+    FOR i FROM 0 TO (set_1 length_1) STEP step 1 DO
+        sum:=
+    END_FOR
+END
